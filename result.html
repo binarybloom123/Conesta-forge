@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Result Screen</h1>
+
+<p id="result"></p>
+
+<a href="app.html">
+    <button>Go Back</button>
+</a>
+
+<script>
+document.getElementById("result").innerText =
+    localStorage.getItem("aiResponse");
+</script>
+
+</body>
+</html>
