@@ -1,43 +1,38 @@
-Conesta Forge AI Application
+AI Study Assistant
 
 Overview
 
-This project is a scaffolded AI-style web application built using HTML, CSS, and JavaScript.
-
-The application demonstrates a simple AI interaction flow where users can enter text, generate a response, and view the result.
+AI Study Assistant is a scaffolded web application that helps students receive explanations for academic topics.
 
 Core Screens
 
 Home Screen
 
-Introduces the application and allows users to start the experience.
+Introduces the application and allows users to start.
 
-AI Interaction Screen
+Question Input Screen
 
-Allows users to enter text and generate an AI-style response.
+Allows students to enter a study question or topic.
 
-Result Screen
+Response Screen
 
-Displays the generated response and allows users to return to the interaction screen.
+Displays an AI-generated study explanation.
 
 Features
 
-- Multi-screen application flow
-- User input handling
-- Dynamic response generation
-- Navigation between screens
-- Responsive and lightweight structure
+- Topic input
+- Simulated AI response generation
+- Multi-screen navigation
+- Local storage of generated responses
 
-Technologies Used
+Technology
 
 - HTML
 - CSS
 - JavaScript
 
-How to Run
+Future Enhancements
 
-1. Open "index.html"
-2. Click "Start Application"
-3. Enter text
-4. Click "Generate Response"
-5. View the generated result
+- Integration with an LLM API
+- Personalized study recommendations
+- Subject-specific tutoring
