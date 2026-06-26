@@ -1,0 +1,39 @@
+<!DOCTYPE html><html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><h1>Login</h1><input type="email" id="email" placeholder="Email"><br><br>
+
+<input type="password" id="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+
+const email =
+document.getElementById("email").value;
+
+const password =
+document.getElementById("password").value;
+
+if(email && password){
+
+localStorage.setItem(
+"loggedIn",
+"true"
+);
+
+window.location.href =
+"dashboard.html";
+
+}else{
+
+alert("Enter email and password");
+
+}
+
+}
+</script></body>
+</html>

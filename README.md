@@ -39,3 +39,22 @@ Displays spending recommendations and analysis.
 ## Running the Project
 
 Open index.html in a browser or run using Live Server.
+
+## Features
+
+- User Authentication
+- Expense Tracking
+- Create Expense
+- Read Expenses
+- Update Expense
+- Delete Expense
+- Spending Summary
+- Local Storage Persistence
+
+## CRUD Entity
+
+Expense
+
+## Deployment
+
+Configured using vercel.json
