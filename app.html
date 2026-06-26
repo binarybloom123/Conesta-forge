@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AI Interaction Screen</title>
+    <title>Expense Analysis</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>AI Interaction Screen</h1>
+<div class="container">
+
+<h1>Expense Analysis</h1>
 
 <input
-    type="text"
-    id="userInput"
-    placeholder="Enter your prompt"
->
+id="category"
+placeholder="Expense Category">
 
-<button onclick="generateResponse()">
-    Generate Response
+<input
+id="amount"
+type="number"
+placeholder="Amount Spent">
+
+<button onclick="analyzeExpense()">
+Analyze Spending
 </button>
+
+</div>
 
 <script src="script.js"></script>
 

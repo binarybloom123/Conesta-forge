@@ -1,38 +1,41 @@
-AI Study Assistant
+# Spend Sense
 
-Overview
+## Overview
 
-AI Study Assistant is a scaffolded web application that helps students receive explanations for academic topics.
+Spend Sense is a web application that helps users understand their spending habits by analyzing expenses entered into the application.
 
-Core Screens
+## Features
 
-Home Screen
+- Expense category input
+- Spending amount tracking
+- Automated spending analysis
+- Personalized spending insights
+- Responsive interface
 
-Introduces the application and allows users to start.
+## Core Screens
 
-Question Input Screen
+### Home Screen
+Introduces the application and its purpose.
 
-Allows students to enter a study question or topic.
+### Expense Analysis Screen
+Allows users to enter expense information.
 
-Response Screen
+### Spending Insight Screen
+Displays spending recommendations and analysis.
 
-Displays an AI-generated study explanation.
-
-Features
-
-- Topic input
-- Simulated AI response generation
-- Multi-screen navigation
-- Local storage of generated responses
-
-Technology
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-Future Enhancements
+## Future Enhancements
 
-- Integration with an LLM API
-- Personalized study recommendations
-- Subject-specific tutoring
+- AI-powered budgeting recommendations
+- Spending trend visualization
+- Monthly expense tracking
+- Smart financial suggestions
+
+## Running the Project
+
+Open index.html in a browser or run using Live Server.

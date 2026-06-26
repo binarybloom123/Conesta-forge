@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Result Screen</title>
+    <title>Spending Insight</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Result Screen</h1>
+<div class="container">
+
+<h1>Spending Insight</h1>
 
 <p id="result"></p>
 
 <a href="app.html">
-    <button>Go Back</button>
+    <button>Analyze Another Expense</button>
 </a>
 
+</div>
+
 <script>
+
 document.getElementById("result").innerText =
-    localStorage.getItem("aiResponse");
+localStorage.getItem("aiResponse");
+
 </script>
 
 </body>
